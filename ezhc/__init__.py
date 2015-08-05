@@ -1,12 +1,14 @@
 
+from __future__ import absolute_import
+from __future__ import print_function
 
-from _config import load_js_libs
+from ._config import load_js_libs
 
 
 from ._highcharts import Highcharts
 from ._highstock import Highstock
-import sample
-import build
+from . import sample
+from . import build
 from ._clock import Clock
 
 
@@ -19,6 +21,4 @@ __all__ = ['Highcharts',
 
 
 load_js_libs()
-print 'Open console to check js libs were loaded in page'
-
-
+print('Open console to check js libs were loaded in page')

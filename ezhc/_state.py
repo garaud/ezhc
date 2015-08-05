@@ -1,7 +1,10 @@
 
+from __future__ import absolute_import
+
 import os
 import json
-from _config import HC_OPTION_FILE, HC_OBJECT_FILE, \
+
+from ._config import HC_OPTION_FILE, HC_OBJECT_FILE, \
                     HS_OPTION_FILE, HS_OBJECT_FILE, \
                     API_DIR
 

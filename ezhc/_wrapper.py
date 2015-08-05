@@ -1,8 +1,10 @@
 
+from __future__ import absolute_import
+
 from IPython.display import HTML, display
 
-from _config import FULLNAME, DESCRIPTION, DEMO
-from _state import State, state_HC, state_HS
+from ._config import FULLNAME, DESCRIPTION, DEMO
+from ._state import State, state_HC, state_HS
 
 
 class Wrapper(object):

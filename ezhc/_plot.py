@@ -1,4 +1,6 @@
 
+from __future__ import absolute_import
+
 import os
 import pandas as pd
 import datetime as dt
@@ -6,8 +8,8 @@ import uuid
 from IPython.display import HTML
 
 
-from _config import JS_LIBS_ONE, JS_LIBS_TWO, JS_SAVE
-from scripts import JS_JSON_PARSE
+from ._config import JS_LIBS_ONE, JS_LIBS_TWO, JS_SAVE
+from .scripts import JS_JSON_PARSE
 
 
 

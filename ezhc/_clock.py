@@ -1,5 +1,7 @@
 
-from _highcharts import Highcharts
+from __future__ import absolute_import
+
+from ._highcharts import Highcharts
 
 
 

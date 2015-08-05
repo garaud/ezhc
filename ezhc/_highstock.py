@@ -1,6 +1,8 @@
 
-from _wrapper import Wrapper
-from _plot import plot, html
+from __future__ import absolute_import
+
+from ._wrapper import Wrapper
+from ._plot import plot, html
 
 
 

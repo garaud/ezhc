@@ -1,9 +1,11 @@
 
+from __future__ import absolute_import
+
 import os
 import numpy as np
 import pandas as pd
 
-from _config import SAMPLES_DIR, DF_ONE_IDX_SEVERAL_COL, DF_ONE_IDX_SEVERAL_COL_2, \
+from ._config import SAMPLES_DIR, DF_ONE_IDX_SEVERAL_COL, DF_ONE_IDX_SEVERAL_COL_2, \
                                     DF_ONE_IDX_ONE_COL, DF_ONE_IDX_TWO_COL, DF_TWO_IDX_ONE_COL, DF_SCATTER, \
                                     DF_BUBBLE, DF_HEATMAP, DF_SEVERAL_IDX_ONE_COL
 
